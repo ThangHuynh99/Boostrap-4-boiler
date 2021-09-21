@@ -24,7 +24,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 800px;
+    min-height: 800px;
     width: 100%;
     display: block;
 }

@@ -11,39 +11,43 @@ body {
 }
 
 .navbar .nav-item.active {
-    border-left: #444 3px solid
+    border-left: #444 3px solid;
 }
 
+
 /* slide  */
+
 .carousel-item {
-   /* padding-top: 50%;  full mafn hinh*/
-   height: 500px;
+    /* padding-top: 50%;  full mafn hinh*/
+    height: 500px;
 }
 
 .carousel-image-1 {
-    background: url('../img/project_images/glozzom/image1.jpg');
+    background: url("../img/project_images/glozzom/image1.jpg");
     background-size: cover;
 }
 
 .carousel-image-2 {
-    background: url('../img/project_images/glozzom/image2.jpg');
+    background: url("../img/project_images/glozzom/image2.jpg");
     background-size: cover;
 }
 
 .carousel-image-3 {
-    background: url('../img/project_images/glozzom/image3.jpg');
+    background: url("../img/project_images/glozzom/image3.jpg");
     background-size: cover;
 }
 
+
 /* home heading  */
+
 #home-heading {
     position: relative;
     min-height: 200px;
-    background: url('../img/project_images/glozzom/lights.jpg');
+    background: url("../img/project_images/glozzom/lights.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     text-align: center;
-    color: white
+    color: white;
 }
 
 #home-heading .dark-overlay {
@@ -55,18 +59,54 @@ body {
     background-color: rgba(66, 30, 30, 0.7);
 }
 
+
 /* video-play */
+
 #video-play {
     position: relative;
     min-height: 200px;
-    background: url('../img/project_images/glozzom/media.jpg');
+    background: url("../img/project_images/glozzom/media.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0 -300px;
     text-align: center;
-    color: white
+    color: white;
 }
 
 #video-play a {
     color: #fff;
+}
+
+
+/* ABOUT PAGE */
+
+#page-header {
+    height: 200px;
+    background: url("../img/project_images/glozzom/image1.jpg");
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 45px;
+}
+
+.about-img {
+    margin-top: -50px;
+}
+
+
+/* service page */
+
+#faq .card {
+    border: #444;
+}
+
+#faq a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+    background: #333;
 }

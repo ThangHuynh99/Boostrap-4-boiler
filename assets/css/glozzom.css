@@ -110,3 +110,30 @@ body {
 #faq .card-header {
     background: #333;
 }
+
+/* BLOG PAGE */
+#blog-header {
+    background-image: url('../img/project_images/glozzom/image1.jpg');
+    background-repeat: no-repeat;
+    height: 200px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 45px;
+}
+
+#main-footer {
+    background: black;
+    color: white;
+}
+
+/* contact page */
+#contact-header {
+    background-image: url('../img/project_images/glozzom/image1.jpg');
+    background-repeat: no-repeat;
+    height: 200px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 45px;
+}
